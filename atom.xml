@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>SogoodIT-Coding代码の帅哥</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.sogoodit.cn/"/>
   <updated>2016-04-09T04:25:01.397Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.sogoodit.cn/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>SogoodIT</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/04/09/hello-world/"/>
-    <id>http://yoursite.com/2016/04/09/hello-world/</id>
+    <link href="http://www.sogoodit.cn/2016/04/09/hello-world/"/>
+    <id>http://www.sogoodit.cn/2016/04/09/hello-world/</id>
     <published>2016-04-09T04:25:01.397Z</published>
     <updated>2016-04-09T04:25:01.397Z</updated>
     
