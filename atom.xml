@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.sogoodit.cn/"/>
-  <updated>2016-04-09T04:25:01.397Z</updated>
+  <updated>2016-04-19T06:55:20.137Z</updated>
   <id>http://www.sogoodit.cn/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://www.sogoodit.cn/2016/04/09/hello-world/"/>
     <id>http://www.sogoodit.cn/2016/04/09/hello-world/</id>
     <published>2016-04-09T04:25:01.397Z</published>
-    <updated>2016-04-09T04:25:01.397Z</updated>
+    <updated>2016-04-19T06:55:20.137Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -35,7 +35,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
     
     </summary>
     
@@ -47,10 +47,10 @@
     <link href="http://www.sogoodit.cn/2016/01/08/%E8%AE%A9%E4%BD%A0%E4%B9%85%E7%AD%89%E4%BA%86%EF%BC%8C%E6%88%91%E6%9D%A5%E6%99%9A%E4%BA%86/"/>
     <id>http://www.sogoodit.cn/2016/01/08/让你久等了，我来晚了/</id>
     <published>2016-01-08T14:51:39.000Z</published>
-    <updated>2016-04-18T15:01:29.885Z</updated>
+    <updated>2016-04-19T06:55:54.793Z</updated>
     
     <content type="html">&lt;blockquote&gt;
-&lt;p&gt;目标还是要有的，一定会实现&lt;br&gt;年少轻狂，有些事处理的不是很得当，继续向优秀的人儿学习&lt;/p&gt;
+&lt;p&gt;目标还是要有的，一定会实现&lt;br&gt;年少轻狂，有些事处理的不是很得当，继续向优秀的人儿学习&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;各位客官请坐好，说书先生一会就到。&lt;br&gt;当，当，当，当。。。。好勒，开讲啦！&lt;br&gt;这篇年度总结本准备在年前结束的，可是自己的拖延症还是太重了，一直没有去“挤奶”（哥们说，时间是乳沟，挤一挤总会有的~），好吧，开始挤。&lt;br&gt;今年，额，去年对我来说是一个特别忙碌的一年，没有了学妹的日子是不好过啊。&lt;/p&gt;
 &lt;h2 id=&quot;养家糊口&quot;&gt;&lt;a href=&quot;#养家糊口&quot; class=&quot;headerlink&quot; title=&quot;养家糊口&quot;&gt;&lt;/a&gt;养家糊口&lt;/h2&gt;&lt;p&gt;公司从原先的一个主线产品到现在的二个主线多个定制，而App端研发规模，iOS，Android 各多了一位（2+1）。期间搭建了公司的持续集成环境，构架了公司主线项目的框架（当时就我和另外一个哥们，初创公司你懂的），由于时间比较紧，现在开始一步一步重新优化（其实就是填坑啦），遗憾的是没有撸几个开源的库出来，总感觉少了点什么，新的一年，争取多为开源做贡献。&lt;br&gt;PS：公司的技术分享氛围还需要我继续带带（凑不要脸），今天刚把公司的Organization建好了，接下来，慢慢积淀吧。&lt;/p&gt;
@@ -95,12 +95,12 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;目标还是要有的，一定会实现&lt;br&gt;年少轻狂，有些事处理的不是很得当，继续向优秀的人儿学习&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;各位客官请坐好，说书先生一会就到。&lt;br&gt;当，当，当，当。。。。好勒，开讲啦！&lt;br&gt;这篇年度总结本准备在年前结束的
+&lt;p&gt;目标还是要有的，一定会实现&lt;br&gt;年少轻狂，有些事处理的不是很得当，继续向优秀的人儿学习&lt;br&gt;
     
     </summary>
     
+    
+      <category term="帅猴行空" scheme="http://www.sogoodit.cn/tags/%E5%B8%85%E7%8C%B4%E8%A1%8C%E7%A9%BA/"/>
     
   </entry>
   
