@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.sogoodit.cn/"/>
-  <updated>2016-04-19T06:55:20.137Z</updated>
+  <updated>2016-05-02T09:48:48.839Z</updated>
   <id>http://www.sogoodit.cn/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Bug Fix CheckList</title>
+    <link href="http://www.sogoodit.cn/2016/04/21/Android-Bug-Fix-CheckList/"/>
+    <id>http://www.sogoodit.cn/2016/04/21/Android-Bug-Fix-CheckList/</id>
+    <published>2016-04-21T11:03:54.000Z</published>
+    <updated>2016-05-02T09:48:48.839Z</updated>
+    
+    <content type="html">&lt;p&gt;此单是用来记录Android开发中（包括Android 工具的使用）遇到的不痛不痒，但有时又让人哭笑不得的“小问题”。&lt;br&gt;此单长期更新，之后会出一个待解决问题单，记录遇到的还没Kill的虫子们，欢迎大家提供好的”灭虫大法“。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;BUG-单号：虫子的编号&lt;/li&gt;
+&lt;li&gt;描述：虫子体型描述&lt;/li&gt;
+&lt;li&gt;问题截图：虫子快照&lt;/li&gt;
+&lt;li&gt;关键字：虫子相关的别名、艺名&lt;/li&gt;
+&lt;li&gt;解决方法：灭虫大法&lt;/li&gt;
+&lt;li&gt;吐槽：为嘛虫子长得这么丑？？？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;接下来，干！&quot;&gt;&lt;a href=&quot;#接下来，干！&quot; class=&quot;headerlink&quot; title=&quot;接下来，干！&quot;&gt;&lt;/a&gt;接下来，干！&lt;/h3&gt;&lt;h4 id=&quot;BUG-2016-05-02-01&quot;&gt;&lt;a href=&quot;#BUG-2016-05-02-01&quot; class=&quot;headerlink&quot; title=&quot;BUG-2016-05-02-01&quot;&gt;&lt;/a&gt;BUG-2016-05-02-01&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;描述：Android Studio 中点击 “Exclude ‘xxx’ from completion ‘’之后，对应的自动提示没了&lt;/li&gt;
+&lt;li&gt;问题截图：&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-error-1.jpg?imageMogr2/thumbnail/!75p&quot; alt=&quot;BUG-2016-05-02-01-error-1&quot;&gt;&lt;/li&gt;
+&lt;li&gt;关键字：Exclude、Completion 、自动提示&lt;/li&gt;
+&lt;li&gt;解决方法：找到Android Studio 的配置目录，配置目录默认在user目中xxx/.AndroidStudio(Preview)x.x/config/options/editor.codeinsight.xml中，如修改过配置目录，自行找到editor.codeinsight.xml文件后，删除对应的EXCLUDED_PACKAGE，重启AS即可。如：&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-method-1.jpg&quot; alt=&quot;BUG-2016-05-02-01-method-1&quot;&gt; &lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-method-2.jpg&quot; alt=&quot;BUG-2016-05-02-01-method-2&quot;&gt;&lt;/li&gt;
+&lt;li&gt;吐槽：不要手贱，当然不尝试怎么知道前因后果呢，欢迎尝试剁手！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;BUG-2016-04-21-01&quot;&gt;&lt;a href=&quot;#BUG-2016-04-21-01&quot; class=&quot;headerlink&quot; title=&quot;BUG-2016-04-21-01&quot;&gt;&lt;/a&gt;BUG-2016-04-21-01&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;描述： AndroidStudio提交（拉取）SVN时提示需要证书：AuthenticationRequired，要求输入“Path to certificate”和“Certificate passphrase”。&lt;/li&gt;
+&lt;li&gt;问题截图：&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-04-21-01-error-1.jpg?imageMogr2/thumbnail/!80p&quot; alt=&quot;BUG-2016-04-21-01-error-1&quot;&gt;&lt;/li&gt;
+&lt;li&gt;关键字：Android Studio 、SVN 、AuthenticationRequired&lt;/li&gt;
+&lt;li&gt;解决方法：File-》Settings-》Version Control-》Subversion-》General-》Clear Auth Cache&lt;br&gt;点击Clear Auth Cache ，清除证书缓存，当再次提交或者拉取代码时会重新提示输入SVN账号和密码，之后流程正常。&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-04-21-01-method-1.jpg?imageMogr2/thumbnail/!80p&quot; alt=&quot;BUG-2016-04-21-01-method-1&quot;&gt;&lt;/li&gt;
+&lt;li&gt;吐槽：网上找解决方案，动不动就删除重装，槽点大，不过的确是个迫不得已的“大法”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;BUG-2015-01-23-01&quot;&gt;&lt;a href=&quot;#BUG-2015-01-23-01&quot; class=&quot;headerlink&quot; title=&quot;BUG-2015-01-23-01&quot;&gt;&lt;/a&gt;BUG-2015-01-23-01&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;描述： 安装App到虚拟机报Installation error: INSTALL_FAILED_CONTAINER_ERROR错误&lt;/li&gt;
+&lt;li&gt;问题截图：&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2015-01-23-01-error-1.jpg?imageMogr2/thumbnail/!80p&quot; alt=&quot;BUG-2016-04-21-01-error-1&quot;&gt;&lt;/li&gt;
+&lt;li&gt;关键字：Android虚拟机、 INSTALL_FAILED_CONTAINER_ERROR&lt;/li&gt;
+&lt;li&gt;解决方法：找到项目下AndroidManifest.xml文件中的manifest标签，里面有个属性是android:installLocation的属性,之前为了节约手机的内存空间把值设置成了preferExternal，只要改成auto就可以了。&lt;br&gt;&lt;img src=&quot;http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2015-01-23-01-method-1.jpg&quot; alt=&quot;BUG-2016-04-21-01-method-1&quot;&gt;&lt;br&gt;1、atuo：自动选择安装路径&lt;br&gt;2、internalOnly：仅安装到内存中&lt;br&gt;3、preferExternal：优先安装到SD卡中&lt;/li&gt;
+&lt;li&gt;吐槽：这个问题可以忽略不记了，因为已经很久没有用虚拟机了，当然真机上也可能会有此情况存在，不过由于现在真机都自带外部扩展，一般都遇不到。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此单是用来记录Android开发中（包括Android 工具的使用）遇到的不痛不痒，但有时又让人哭笑不得的“小问题”。&lt;br&gt;此单长期更新，之后会出一个待解决问题单，记录遇到的还没Kill的虫子们，欢迎大家提供好的”灭虫大法“。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="AndroidLover" scheme="http://www.sogoodit.cn/categories/AndroidLover/"/>
+    
+    
+      <category term="Android" scheme="http://www.sogoodit.cn/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

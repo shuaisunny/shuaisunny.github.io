@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Android Bug Fix CheckList · SogoodIT-Coding代码の帅哥</title><meta name="description" content="Android Bug Fix CheckList - SogoodIT"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div id="mask" style="display: none;"><img id="mask-image" src="#" style=" "></div><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/SogoodIT" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/shuaisunny" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Android Bug Fix CheckList</h1><div class="post-time">Apr 21, 2016</div><div class="post-content"><p>此单是用来记录Android开发中（包括Android 工具的使用）遇到的不痛不痒，但有时又让人哭笑不得的“小问题”。<br>此单长期更新，之后会出一个待解决问题单，记录遇到的还没Kill的虫子们，欢迎大家提供好的”灭虫大法“。<br><a id="more"></a></p>
+<blockquote>
+<ul>
+<li>BUG-单号：虫子的编号</li>
+<li>描述：虫子体型描述</li>
+<li>问题截图：虫子快照</li>
+<li>关键字：虫子相关的别名、艺名</li>
+<li>解决方法：灭虫大法</li>
+<li>吐槽：为嘛虫子长得这么丑？？？</li>
+</ul>
+</blockquote>
+<h3 id="接下来，干！"><a href="#接下来，干！" class="headerlink" title="接下来，干！"></a>接下来，干！</h3><h4 id="BUG-2016-05-02-01"><a href="#BUG-2016-05-02-01" class="headerlink" title="BUG-2016-05-02-01"></a>BUG-2016-05-02-01</h4><ul>
+<li>描述：Android Studio 中点击 “Exclude ‘xxx’ from completion ‘’之后，对应的自动提示没了</li>
+<li>问题截图：<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-error-1.jpg?imageMogr2/thumbnail/!75p" alt="BUG-2016-05-02-01-error-1"></li>
+<li>关键字：Exclude、Completion 、自动提示</li>
+<li>解决方法：找到Android Studio 的配置目录，配置目录默认在user目中xxx/.AndroidStudio(Preview)x.x/config/options/editor.codeinsight.xml中，如修改过配置目录，自行找到editor.codeinsight.xml文件后，删除对应的EXCLUDED_PACKAGE，重启AS即可。如：<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-method-1.jpg" alt="BUG-2016-05-02-01-method-1"> <img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-05-02-01-method-2.jpg" alt="BUG-2016-05-02-01-method-2"></li>
+<li>吐槽：不要手贱，当然不尝试怎么知道前因后果呢，欢迎尝试剁手！</li>
+</ul>
+<h4 id="BUG-2016-04-21-01"><a href="#BUG-2016-04-21-01" class="headerlink" title="BUG-2016-04-21-01"></a>BUG-2016-04-21-01</h4><ul>
+<li>描述： AndroidStudio提交（拉取）SVN时提示需要证书：AuthenticationRequired，要求输入“Path to certificate”和“Certificate passphrase”。</li>
+<li>问题截图：<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-04-21-01-error-1.jpg?imageMogr2/thumbnail/!80p" alt="BUG-2016-04-21-01-error-1"></li>
+<li>关键字：Android Studio 、SVN 、AuthenticationRequired</li>
+<li>解决方法：File-》Settings-》Version Control-》Subversion-》General-》Clear Auth Cache<br>点击Clear Auth Cache ，清除证书缓存，当再次提交或者拉取代码时会重新提示输入SVN账号和密码，之后流程正常。<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2016-04-21-01-method-1.jpg?imageMogr2/thumbnail/!80p" alt="BUG-2016-04-21-01-method-1"></li>
+<li>吐槽：网上找解决方案，动不动就删除重装，槽点大，不过的确是个迫不得已的“大法”</li>
+</ul>
+<hr>
+<h4 id="BUG-2015-01-23-01"><a href="#BUG-2015-01-23-01" class="headerlink" title="BUG-2015-01-23-01"></a>BUG-2015-01-23-01</h4><ul>
+<li>描述： 安装App到虚拟机报Installation error: INSTALL_FAILED_CONTAINER_ERROR错误</li>
+<li>问题截图：<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2015-01-23-01-error-1.jpg?imageMogr2/thumbnail/!80p" alt="BUG-2016-04-21-01-error-1"></li>
+<li>关键字：Android虚拟机、 INSTALL_FAILED_CONTAINER_ERROR</li>
+<li>解决方法：找到项目下AndroidManifest.xml文件中的manifest标签，里面有个属性是android:installLocation的属性,之前为了节约手机的内存空间把值设置成了preferExternal，只要改成auto就可以了。<br><img src="http://7xt93i.com2.z0.glb.clouddn.com/image/jpg/bloguse/BUG-2015-01-23-01-method-1.jpg" alt="BUG-2016-04-21-01-method-1"><br>1、atuo：自动选择安装路径<br>2、internalOnly：仅安装到内存中<br>3、preferExternal：优先安装到SD卡中</li>
+<li>吐槽：这个问题可以忽略不记了，因为已经很久没有用虚拟机了，当然真机上也可能会有此情况存在，不过由于现在真机都自带外部扩展，一般都遇不到。</li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/04/09/hello-world/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'SogoodIT';
+var disqus_identifier = '2016/04/21/Android-Bug-Fix-CheckList/';
+var disqus_title = 'Android Bug Fix CheckList';
+var disqus_url = 'http://www.sogoodit.cn/2016/04/21/Android-Bug-Fix-CheckList/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//SogoodIT.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2016 <a href="http://www.sogoodit.cn">SogoodIT</a>, unless otherwise noted.</p></div></footer></div><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-76608048-1",'auto');ga('send','pageview');</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></body></html>
